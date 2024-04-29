@@ -16,7 +16,7 @@ driver.get("https://leetcode.com/accounts/login/")
 usernameinput = driver.find_element(By.ID, "id_login")
 passwordinput = driver.find_element(By.ID, "id_password")
 usernameinput.send_keys("560628chen@gmail.com")
-passwordinput.send_keys("qaz2013*")
+passwordinput.send_keys("az2013*")
 signinbtn=driver.find_element(By.ID, "signin_btn")
 signinbtn.send_keys(Keys.ENTER)
 #等待登入完成
